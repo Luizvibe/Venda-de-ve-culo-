@@ -1,0 +1,34 @@
+body {
+    font-size: 25px;
+    font-weight: 300;
+    background-color: #ffffffb6;
+  }
+  .conteiner {
+    width: 1024px;
+    border-radius: 10px;
+    padding-left: 100px;
+   
+    color: rgb(24, 25, 26);
+}
+  }
+  .formulario {
+    text-decoration: black;
+    margin-left: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .botao {
+    text-decoration: black;
+    margin-left: 25rem;
+    margin-top: 2rem;
+    padding-right: 80px;
+  }
+
+  .nav {
+    background-color: rgb(33, 224, 192);
+    padding-left: 40%;
+    margin-bottom: 30px;
+}
+.form-control {
+  width: 100%;
+}

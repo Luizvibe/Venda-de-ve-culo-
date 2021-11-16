@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Samambaia Veículos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Meu CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="vendas.js" async></script>
+</head>
+
+
+<body>
+  <div class="nav">
+    <h1>Samambaia Veículos</h1>
+  </div>
+
+  <div class=" conteiner">
+    <div class="d-flex">
+
+      <div class=" formulario">
+        <form class="form-inline" action="/action_page.php">
+
+          <form>
+            <div class="mb-3">
+              <label for="modelo" class="form-label">Modelo</label>
+              <input type="modelo" class="form-control" id="modelo">
+            </div>
+
+            <div class="mb-3">
+              <label for="valor" class="form-label">Valor:</label>
+              <input type="valor" class="form-control" id="valor" placeholder="R$ 00,0">
+            </div>
+
+        
+
+          <div class="botao">
+            <button type="button" value="simular" class="btn btn-outline-primary  btn-lg" id="btnSimular">Calcular</button>
+          </div>
+        </form>
+        </form>
+      </div>
+
+    </div>
+    <hr>
+    <h1>Simulação</h1>
+    <div id="calculo">
+    </div>
+  </div>
+</body>
+
+</html>
